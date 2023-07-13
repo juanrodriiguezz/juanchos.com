@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+h1 {
+    font-size: 200px;
+    font-family: "Inter";
+}
+:root { 
+    --white: #FFFFFF;
+    --background2: #181F1C; 
+    --important: #0B327D;
+    --black: #000000;
+
+    --h1Size: 96px; 
+    --h2Size: 64px; 
+    --h3Size: 40px;
+    --h4Size: 24px;
+    --h5Size: 20px;
+    --h6Size: 16px;
+    --p: 10px;
+}
+body{ 
+    font-family: 'Fira Sans';
+}
+*{
+    border: 1px solid red;
+} 
+ul { 
+    display: flex;
+    justify-content: center;
+    gap: 164px; 
+   
+}
+header{ 
+    display: flex;
+    justify-content: flex-end;
+    gap: 200px;
+    
+}
+li{
+    list-style: none;
+}
+a{ 
+    font-size: var(--h6Size);
+    color: var(--black);
+}
